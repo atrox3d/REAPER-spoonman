@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1666078708
+<REAPER_PROJECT 0.1 "6.68/win64" 1666079645
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 134.854774331474
-  ZOOM 41.5853396924754 5381 0
-  VZOOMEX 22 200
+  CURSOR 0
+  ZOOM 41.58533969247569 0 0
+  VZOOMEX 22 135
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -50,7 +50,7 @@
   >
   LOCK 1
   <METRONOME 7 2
-    VOL 0.25 0.125
+    VOL 1 1
     FREQ 800 1600 1
     BEATLEN 4
     SAMPLES "" ""
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 134.854774331474 142.67431106713585
-  SELECTION2 134.854774331474 142.67431106713585
+  SELECTION 246.07106844696381 251.38603583675354
+  SELECTION2 246.07106844696381 251.38603583675354
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -110,7 +110,15 @@
     PT 106.036599253791 91.3434363791 1 262151 0 1
     PT 124.428725350592 92.0770659873 1 262148 0 1
     PT 134.854774331474 92.0770659873 1 262150 0 1
-    PT 142.674311067136 92.0770659873 1
+    PT 142.674311067136 91.5729085649 1 262151 0 1
+    PT 161.020348408624 92.9068618639 1 262147 0 1
+    PT 176.519741791526 93.4119261656 1 262148 0 1
+    PT 197.073862435571 93.8035949359 1
+    PT 207.308011784070 93.9486315524 1
+    PT 217.526361792340 93.5161903225 1
+    PT 227.791963894922 91.9082220476 1 262151 0 1
+    PT 246.071068446964 90.3109962485 1 262148 0 1
+    PT 251.386035836754 90.3109962485 1
   >
   <PROJBAY
   >
@@ -146,7 +154,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {A4FAEE6F-2793-4FBB-8CDB-41307B7E032B}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -168,7 +176,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.002557 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {79015919-A911-43C4-8B3F-BC9F44FD728C}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -190,7 +198,7 @@
       FADEIN 1 0.002557 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {B20638E3-0F8E-47D3-8F2F-5687F6445688}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -212,7 +220,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {484CE9A2-1E72-4354-A25C-6C6A621B731A}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -234,7 +242,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {E8C316DA-C7DB-465A-A3A9-57A4F993D3D3}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -256,7 +264,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {BB49B57E-6B40-43F2-8D2C-57AE858F8E25}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -278,7 +286,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {F9F9F15A-A414-4269-B6E9-C3C7D0DB66B4}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -300,7 +308,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {420DAC17-A133-4769-A917-CEC3153E6317}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -322,7 +330,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {4F593C63-974E-49A7-9CFF-DEE5413AAA4B}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -344,7 +352,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {D8247B72-46A6-46BB-94B0-187EB5CB026F}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -366,7 +374,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {814BA0CD-BC8E-4F6C-806E-548D22BD0308}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -388,7 +396,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {588BDD67-46FA-4AED-8AB2-699092868EBB}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -410,7 +418,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.005065 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {206031A3-6936-416F-861C-5411E23DCAD4}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -432,7 +440,7 @@
       FADEIN 1 0.005065 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {76953337-AC92-4B97-9F32-F9D830B0A0A4}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -454,7 +462,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {CC28F2FF-28A7-47EF-8B38-158014F13CDC}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -476,7 +484,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {E6ADF744-1CA6-4758-B069-D416AD181BBB}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -498,7 +506,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {6D7D9645-2AB4-4DD7-9D14-C869676B9ACB}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -520,7 +528,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {60A0EA56-C17A-4897-97D6-A5B5CB11420E}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -542,7 +550,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {D5E2C9E6-A0A7-4940-A439-8B1023AEB3EA}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -564,7 +572,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {5E8CB89A-62C8-450B-AD81-66AE9A32014E}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -586,7 +594,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.005065 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {26301524-A0BD-4DFE-9609-28D82B492865}
       IID 3
       NAME spoonman-drums-only.mp3
@@ -624,7 +632,7 @@
     <ITEM
       POSITION 142.67431106713585
       SNAPOFFS 0
-      LENGTH 117.68593039829371
+      LENGTH 18.3460373414886
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0 0
@@ -643,14 +651,190 @@
         FILE "audio-in\spoonman-drums-only.mp3" 1
       >
     >
+    <ITEM
+      POSITION 161.02034840862444
+      SNAPOFFS 0
+      LENGTH 15.49939338290201
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {E62BB705-1705-4919-8C47-193C3517DB04}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 161.66402360986166
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8FE59B0A-A023-49DC-A215-FC5321B49937}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 176.51974179152646
+      SNAPOFFS 0
+      LENGTH 20.55412064404408
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {3C224153-C319-43E1-B36D-AD988FA784A1}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 177.16341699276367
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8C786B5E-18F9-4D9A-876B-42E2C8C7B034}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 197.07386243557053
+      SNAPOFFS 0
+      LENGTH 10.23414934849913
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {272B266A-B4C6-45B1-B113-AE471854FBAB}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 197.71753763680775
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B829B9AD-6E10-4236-9B3D-5193F71E8824}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 207.30801178406966
+      SNAPOFFS 0
+      LENGTH 10.21835000827062
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {156B7A5C-2210-46A5-80C2-3146AB76BA97}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 207.95168698530688
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EDB81A62-FCD4-475E-BBD3-DCC22ADFEC14}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 217.52636179234028
+      SNAPOFFS 0
+      LENGTH 10.26560210258165
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {6A79EDC6-37F5-4C5D-9117-EBAE1FFA30EB}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 218.1700369935775
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {100BC4E0-68E8-4D28-A596-B1F1A88AF5C4}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 227.79196389492193
+      SNAPOFFS 0
+      LENGTH 18.27910455204187
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {78A56A44-D643-48CC-9F5F-5D7F6E90424A}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 228.43563909615915
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BC6B9C2F-25EE-4173-962A-8D1C4CF2D25E}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 246.07106844696381
+      SNAPOFFS 0
+      LENGTH 5.31496738978973
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {3018A493-EF1F-477B-9C57-7F4B95376441}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 246.71474364820102
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {00FF8CB0-B462-48F8-BB1C-D019A77AD9A8}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 251.38603583675354
+      SNAPOFFS 0
+      LENGTH 8.97420562867602
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {B2B25904-4230-4A2E-A2BA-B882BC41E3D1}
+      IID 3
+      NAME spoonman-drums-only.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 252.02971103799075
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C9FF3929-9ACA-4017-BDCA-EAC5036A9B5E}
+      <SOURCE MP3
+        FILE "audio-in\spoonman-drums-only.mp3" 1
+      >
+    >
   >
   <TRACK {5B9994C0-8734-412C-B411-70E086B18126}
     NAME DRUMLESS
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.22971712796699 0 -1 -1 1
-    MUTESOLO 0 2 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
