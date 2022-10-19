@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1666081644
+<REAPER_PROJECT 0.1 "6.68/win64" 1666081660
   <NOTES 0 2
   >
   RIPPLE 0
@@ -844,7 +844,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -875,52 +875,6 @@
       GUID {583195F8-8977-4898-A836-5CEDAAA3F48A}
       <SOURCE VIDEO
         FILE "video-in\spoonman-drum-cover.mp4"
-      >
-    >
-  >
-  <TRACK {8DA604CD-76F7-4F72-82B0-6C707B059ADE}
-    NAME DRUM_COVER
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {8DA604CD-76F7-4F72-82B0-6C707B059ADE}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 2.35632479876279
-      SNAPOFFS 0
-      LENGTH 252.86634920634921
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0 0
-      FADEOUT 1 0.01 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {EB12B947-B117-469D-9DFE-601B3D660CFB}
-      IID 1
-      NAME spoonman–drum-cover.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {11E28226-BA2B-47A9-A74E-2359976F6F1E}
-      <SOURCE MP3
-        FILE "audio-in\spoonman–drum-cover.mp3" 1
       >
     >
   >
