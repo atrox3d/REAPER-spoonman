@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1666162244
+<REAPER_PROJECT 0.1 "6.68/win64" 1666334610
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,13 +16,13 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
+  CURSOR 8.10690533185757
   ZOOM 10.59451080033138 0 0
-  VZOOMEX 5 80
+  VZOOMEX 5 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 134.854774331474 142.67431106713599
-  SELECTION2 134.854774331474 142.67431106713599
+  SELECTION 7.7791697761839 12.36746755561497
+  SELECTION2 7.7791697761839 12.36746755561497
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 56 0
   MASTERPEAKCOL 16576
@@ -104,34 +104,34 @@
     PT 0.000000000000 96.1100950711 1
     PT 2.497136225102 90.8740914570 1
     PT 7.779169776184 91.5372149303 1 262151 0 1
-    PT 12.367467555615 90.1623627164 1
-    PT 17.025730575198 90.3572712074 1
-    PT 26.322160057579 87.3230677297 1 262148 0 1
-    PT 31.818989388928 90.3074206149 1 262151 0 1
-    PT 36.469769990790 87.4826041469 1 262148 0 1
-    PT 41.956575106857 90.5751681466 1 262151 0 1
-    PT 46.593607624646 91.2793836484 1
-    PT 51.194865687669 92.0384633547 1 262148 0 1
-    PT 56.410076616932 92.2854280126 1
-    PT 61.611331141476 91.7298126360 1 262151 0 1
-    PT 66.189995241299 90.5493227176 1
-    PT 70.828351303993 87.8032824697 1 262148 0 1
-    PT 76.295117312037 90.2597386250 1 262151 0 1
-    PT 80.948354806386 88.1137993162 1 262148 0 1
-    PT 86.395855694158 91.1920535059 1 262151 0 1
-    PT 95.607184617085 92.0473519790 1 262148 0 1
-    PT 106.036599253791 91.3434363791 1 262151 0 1
-    PT 124.428725350592 92.0770659873 1 262148 1 1
-    PT 134.854774331474 92.0770659873 1 262150 0 1
-    PT 142.674311067136 91.5729085649 1 262151 0 1
-    PT 161.020348408624 92.9068618639 1 262147 0 1
-    PT 176.519741791526 93.4119261656 1 262148 0 1
-    PT 197.073862435571 93.8035949359 1
-    PT 207.308011784070 93.9486315524 1
-    PT 217.526361792340 93.5161903225 1
-    PT 227.791963894922 91.9082220476 1 262151 0 1
-    PT 246.071068446964 90.3109962485 1 262148 0 1
-    PT 251.386035836754 90.3109962485 1
+    PT 10.401054221573 90.1623627164 1
+    PT 15.059317241156 90.3572712074 1
+    PT 24.355746723537 87.3230677297 1 262148 0 5
+    PT 29.852576054886 90.3074206149 1 262151 0 1
+    PT 34.503356656749 87.4826041469 1 262148 0 1
+    PT 39.990161772815 90.5751681466 1 262151 0 1
+    PT 44.627194290604 91.2793836484 1
+    PT 49.228452353627 92.0384633547 1 262148 0 1
+    PT 54.443663282890 92.2854280126 1
+    PT 59.644917807434 91.7298126360 1 262151 0 1
+    PT 64.223581907257 90.5493227176 1
+    PT 68.861937969951 87.8032824697 1 262148 0 1
+    PT 74.328703977995 90.2597386250 1 262151 0 1
+    PT 78.981941472344 88.1137993162 1 262148 0 1
+    PT 84.429442360116 91.1920535059 1 262151 0 1
+    PT 93.640771283043 92.0473519790 1 262148 0 1
+    PT 104.070185919751 91.3434363791 1 262151 0 1
+    PT 122.462312016558 92.0770659873 1 262148 1 1
+    PT 132.888360997445 92.0770659873 1 262150 0 1
+    PT 140.707897733111 91.5729085649 1 262151 0 1
+    PT 159.053935074595 92.9068618639 1 262147 0 1
+    PT 174.553328457502 93.4119261656 1 262148 0 1
+    PT 195.107449101543 93.8035949359 1
+    PT 205.341598450041 93.9486315524 1
+    PT 215.559948458307 93.5161903225 1
+    PT 225.825550560888 91.9082220476 1 262151 0 1
+    PT 244.104655112925 90.3109962485 1 262148 0 1
+    PT 249.419622502713 90.3109962485 1
   >
   MARKER 1 2.49713622510157 "count-in - 4/4 - 2" 0 0 1 R {E64E9F66-0CF8-4FDF-B9DA-2C854C9094C8}
   MARKER 1 2.49713622510157 COUNT-IN 1 0 1 R {D70062BD-0B37-4A5C-B651-091BD8BB6CF8}
@@ -197,7 +197,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 -0.84 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -206,7 +206,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 25 0 0 0 0 0
+    TRACKHEIGHT 53 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -589,9 +589,9 @@
       >
     >
     <ITEM
-      POSITION 115.23266230220906
+      POSITION 115.23683390711066
       SNAPOFFS 0
-      LENGTH 9.19606304840541
+      LENGTH 9.18036229337837
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -769,9 +769,9 @@
       >
     >
     <ITEM
-      POSITION 115.23266230220906
+      POSITION 115.23683390711066
       SNAPOFFS 0
-      LENGTH 9.19606304840539
+      LENGTH 9.18036229337835
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1192,7 +1192,7 @@
     >
   >
   <TRACK {5CA6153B-E028-445C-805D-9D3A6B0C243E}
-    NAME MT-PowerDrumKit
+    NAME flat
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -1203,7 +1203,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 1 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 64 0 0 0 0 0
@@ -1286,7 +1286,7 @@
     <ITEM
       POSITION 2.35632479876279
       SNAPOFFS 0
-      LENGTH 29.46266459016521
+      LENGTH 29.48944294263579
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1854,7 +1854,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 80
         VELLANE -1 77 0
-        CFGEDITVIEW 195839.981693 0.054895 79 16 0 -1 0 0 0 0.5
+        CFGEDITVIEW 2349.769575 0.025131 74 16 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -1862,9 +1862,9 @@
       >
     >
     <ITEM
-      POSITION 31.818989388928
+      POSITION 31.84576774139858
       SNAPOFFS 0
-      LENGTH 4.650780601862
+      LENGTH 4.71514083387435
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1968,9 +1968,9 @@
       >
     >
     <ITEM
-      POSITION 36.46976999079
+      POSITION 36.56090857527293
       SNAPOFFS 0
-      LENGTH 5.486805116067
+      LENGTH 5.41655284802324
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -1981,7 +1981,7 @@
       IID 155
       NAME "MT-PowerDrumKit untitled MIDI item"
       VOLPAN 1 0 1 -1
-      SOFFS 36.46976999079 54.99999999999945
+      SOFFS 36.56090857527293 54.99999999999945
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {F53680AF-BF35-4361-926A-CC5AB4260141}
@@ -2658,9 +2658,9 @@
       >
     >
     <ITEM
-      POSITION 41.956575106857
+      POSITION 41.97746142329617
       SNAPOFFS 0
-      LENGTH 9.238290580812
+      LENGTH 9.20669502880457
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -2840,9 +2840,9 @@
       >
     >
     <ITEM
-      POSITION 51.194865687669
+      POSITION 51.18415645210074
       SNAPOFFS 0
-      LENGTH 10.416465453807
+      LENGTH 10.42304596954351
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -3074,9 +3074,9 @@
       >
     >
     <ITEM
-      POSITION 61.61133114143764
+      POSITION 61.60720242160588
       SNAPOFFS 0
-      LENGTH 9.21702016251819
+      LENGTH 9.30477280132437
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -3254,9 +3254,9 @@
       >
     >
     <ITEM
-      POSITION 70.8283513039368
+      POSITION 70.91197522291122
       SNAPOFFS 0
-      LENGTH 5.46676600804277
+      LENGTH 5.41097339546178
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -3267,7 +3267,7 @@
       IID 155
       NAME "MT-PowerDrumKit untitled MIDI item"
       VOLPAN 1 0 1 -1
-      SOFFS 36.35177299971496 55.00000000000188
+      SOFFS 36.40861856621881 54.99999999999923
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {2A802C11-EEDB-4D90-A854-5678CAC0C706}
@@ -3946,9 +3946,9 @@
       >
     >
     <ITEM
-      POSITION 76.29511731199337
+      POSITION 76.3229486183868
       SNAPOFFS 0
-      LENGTH 4.65323749434978
+      LENGTH 4.70180568682912
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -4052,9 +4052,9 @@
       >
     >
     <ITEM
-      POSITION 80.94835480640177
+      POSITION 81.02475430527454
       SNAPOFFS 0
-      LENGTH 5.44750088777324
+      LENGTH 5.37854425262866
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -4065,7 +4065,7 @@
       IID 155
       NAME "MT-PowerDrumKit untitled MIDI item"
       VOLPAN 1 0 1 -1
-      SOFFS 36.34204683222086 54.99999999999878
+      SOFFS 36.3975600146546 54.99999999999878
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {AA24708F-7032-46F6-BB4D-68FA196A5164}
@@ -4742,9 +4742,9 @@
       >
     >
     <ITEM
-      POSITION 86.39585569419431
+      POSITION 86.4032985579225
       SNAPOFFS 0
-      LENGTH 9.21132892292931
+      LENGTH 9.192987969542
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -4928,9 +4928,9 @@
       >
     >
     <ITEM
-      POSITION 95.60718461708164
+      POSITION 95.59628652742252
       SNAPOFFS 0
-      LENGTH 10.42941463670827
+      LENGTH 10.44448433126901
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -5162,9 +5162,9 @@
       >
     >
     <ITEM
-      POSITION 106.03659925377011
+      POSITION 106.04077085867172
       SNAPOFFS 0
-      LENGTH 18.39212609684436
+      LENGTH 18.37642534181731
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -5506,15 +5506,15 @@
       >
     >
     <ITEM
-      POSITION 124.428725350592
+      POSITION 124.41719620046656
       SNAPOFFS 0
-      LENGTH 10.42604898088197
+      LENGTH 10.42604898088196
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {D55A1C90-94C9-440A-B7F0-A1756E7725FA}
       IID 176
       NAME "MT-PowerDrumKit untitled MIDI item"
@@ -5672,9 +5672,9 @@
       >
     >
     <ITEM
-      POSITION 134.854774331474
+      POSITION 134.84324518134858
       SNAPOFFS 0
-      LENGTH 7.81953673566198
+      LENGTH 7.83029940976169
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -5776,13 +5776,654 @@
       >
     >
   >
+  <TRACK {2BCC151C-1B69-4468-AECA-885FDF8A0D55}
+    NAME accented
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1.10420256279364 -0.936 -1 -1 1
+    MUTESOLO 0 2 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 1 5088 1 0 0 0 0 0
+    VU 2
+    SCORE 26 12 0.25 0.25
+    TRACKHEIGHT 64 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2BCC151C-1B69-4468-AECA-885FDF8A0D55}
+    PERF 0
+    MIDIOUT -1
+    CUSTOM_NOTE_ORDER 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 54 56 59 35 36 38 39 62 65 61 60 51 53 57 49 41 43 45 48 40 37 47 50 46 44 42 63 58 55 52 64 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127
+    <MIDINOTENAMES
+      -1 35 (Kick) 0 35
+      -1 36 KICK 0 36
+      -1 37 SIDE-STICK 0 37
+      -1 38 SNARE 0 38
+      -1 39 (Snare) 0 39
+      -1 40 (Snare) 0 40
+      -1 41 "TOM LOW" 0 41
+      -1 42 "HI-HAT CLOSED" 0 42
+      -1 43 "(Tom Low)" 0 43
+      -1 44 "HI-HAT HALF OPEN" 0 44
+      -1 45 "TOM MID" 0 45
+      -1 46 "HI-HAT OPEN" 0 46
+      -1 47 "(Tom Mid)" 0 47
+      -1 48 "TOM HI" 0 48
+      -1 49 "CRASH LEFT" 0 49
+      -1 50 "(Tom Hi)" 0 50
+      -1 51 RIDE 0 51
+      -1 52 CHINA 0 52
+      -1 53 "RIDE BELL" 0 53
+      -1 55 SPLASH 0 55
+      -1 57 "CRASH RIGHT" 0 57
+      -1 58 "CRASH RIGHT CHOKED" 0 58
+      -1 60 "HI-HAT OPEN" 0 60
+      -1 61 "HI-HAT HALF OPEN" 0 61
+      -1 62 "HI-HAT CLOSED" 0 62
+      -1 63 "(Hi-Hat closed)" 0 63
+      -1 65 "HI-HAT PEDAL" 0 65
+      -1 83 "CHOKE ALL CYMBALS" 0 83
+    >
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 49 36 1159 695
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST3i: MT-PowerDrumKit (MANDA AUDIO) (16 out)" MT-PowerDrumKit.vst3 0 "" 672034263{E79A02246D7767B26A4FFB0690BFCFC8} ""
+        120OKO5e7f4AAAAAEAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAACAAAAAAAA
+        AAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAtAIAAAEAAAD//xAA
+        pAIAAAEAAAACAAAApAIAAJKKOT/R4zs/mpk5PxL3Mj+amTk/DD0+PyJ6PD9XlkA/MhQ1P9R+Mj+NJTA/jSUwP40lMD8AAAA/AAAAPwAAAD891K4+nFOxPm8Sgz4X2Q4/
+        HVpEP2RXIj/hlSg/jNqVPk7ULj9O1C4/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0eM7PwAAAAAAAIA/pHD9PgAAAD8AAAAAcD0KPwAAgD8AAAA/XI8CP1yPAj/Xo/A+rkcBP4/C9T7NzAw/
+        ////PgAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUPgAAnD4AAJg+
+        AACsPgAAtD4AALw+AAAEPwAAxD4AALg+AACoPgAA0D4AANg+AADIPgAA6D4AAOw+AADUPgAA4D4AAIg+AACgPgAAAAAAAPw+AAD4PgAA9D4AAAAAAADMPgAAwD4AALA+
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkD4AAKQ+AAAAAAAAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAD8AAIA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAAA9AAAAAAAAgD8AAIA/CtcjPAAAfj8AACg/AAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAIA/AAAAAAAAAAA=
+        AAAQAAAA
+      >
+      FLOATPOS 81 68 961 648
+      FXID {C78DEC07-670C-4255-B424-CD933E6AE435}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS sstillwell/1175 ""
+        0 5 1.8 20 250 100 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      JS_DIMS 489 287
+      FLOATPOS 0 0 0 0
+      FXID {DF71F32C-74A3-4652-A580-8BDDC6F75E36}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS sstillwell/eventhorizon2 ""
+        -2.4 -0.1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {DB4FF07E-8232-4455-8080-38E1EE840E83}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 31.84576774139858
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {3F0050E5-0B22-4F41-9232-5BC99399D430}
+      IID 155
+      NAME "MT-PowerDrumKit untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CC708D53-CD63-4B99-AD46-C58F6E9041F9}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {CCD18385-A638-4F7D-BDDE-56D49C6ACA43}
+        <X 0 0
+          /w9NRUFTIGNsZWYgcGVyY3Vzc2lvbg==
+        >
+        E 3840 90 41 60
+        E 120 80 41 00
+        E 1800 90 41 60
+        E 120 80 41 00
+        E 1800 90 41 60
+        E 120 80 41 00
+        E 840 90 41 60
+        E 120 80 41 00
+        E 840 90 41 60
+        E 120 80 41 00
+        E 840 90 3c 60
+        E 120 80 3c 00
+        E 840 90 41 60
+        E 0 90 24 7f
+        E 0 90 39 60
+        E 0 90 29 7f
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 0 80 29 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 29 7f
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 29 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 120 80 29 00
+        E 120 90 24 7f
+        E 0 90 41 60
+        E 0 90 2b 2b
+        E 120 80 24 00
+        E 0 80 41 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 120 80 29 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 2b 2b
+        e 0 90 24 7f
+        E 120 80 41 00
+        E 0 80 2b 00
+        e 0 80 24 00
+        E 120 90 29 7f
+        E 120 80 29 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 29 7f
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 29 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 29 7f
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 29 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 29 7f
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 29 00
+        E 120 90 29 7f
+        E 120 80 29 00
+        E 120 90 29 7f
+        E 120 80 29 00
+        E 360 90 41 60
+        E 0 90 24 7f
+        E 0 90 39 60
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 360 90 41 60
+        E 0 90 24 7f
+        E 0 90 39 60
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 360 90 41 60
+        E 0 90 24 7f
+        E 0 90 39 60
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 41 60
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 41 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 2b 2b
+        E 120 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 360 90 41 60
+        E 0 90 24 7f
+        E 0 90 39 60
+        E 120 80 41 00
+        E 0 80 24 00
+        E 0 80 39 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 29 7f
+        E 0 90 2b 2b
+        E 120 80 29 00
+        E 0 80 2b 00
+        E 120 90 41 60
+        E 0 90 29 7f
+        E 0 90 24 7f
+        E 0 90 2b 2b
+        E 120 80 41 00
+        E 0 80 29 00
+        E 0 80 24 00
+        E 0 80 2b 00
+        E 360 90 29 7f
+        E 120 80 29 00
+        E 120 90 29 7f
+        E 120 80 29 00
+        E 120 90 41 60
+        E 0 90 24 7f
+        E 120 80 41 00
+        E 0 80 24 00
+        E 120 90 26 7f
+        E 120 80 26 00
+        E 120 90 39 7f
+        E 0 90 24 7f
+        E 0 90 31 7f
+        E 120 80 39 00
+        E 0 80 24 00
+        E 0 80 31 00
+        E 360 90 41 60
+        E 120 80 41 00
+        E 840 90 41 60
+        E 120 80 41 00
+        E 840 90 41 60
+        E 120 80 41 00
+        E 840 90 41 60
+        E 120 80 41 00
+        E 840 90 41 60
+        E 120 80 41 00
+        E 840 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {7F8262B3-816E-4DBE-9827-33BFD2236473}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 80
+        VELLANE -1 77 0
+        CFGEDITVIEW 10308.059368 0.124561 74 16 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 65545 1 1 1 1 1 0.25 22 102 1270 1005 1 3 0 2 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+  >
   <TRACK {5B9994C0-8734-412C-B411-70E086B18126}
     NAME DRUMLESS
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 1 -1 -1 1
-    MUTESOLO 0 0 0
+    VOLPAN 0.29516224459529 1 -1 -1 1
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -5827,17 +6468,17 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 -1 -1 -1 1
+    VOLPAN 3.98107170553497 -1 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
     BUSCOMP 1 1 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 117 0 0 0 0 0
+    TRACKHEIGHT 49 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -6214,7 +6855,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 260.36024146542957
+      LENGTH 260.38694090255808
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -6602,7 +7243,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 260.68722876887966
+      LENGTH 260.71392820600818
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -7034,7 +7675,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
@@ -7374,7 +8015,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 260.36024146542957
+      LENGTH 260.38694090255808
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -7439,7 +8080,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 25 0 0 0 0 0
+    TRACKHEIGHT 41 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
