@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.68/win64" 1666357428
+<REAPER_PROJECT 0.1 "6.68/win64" 1667847442
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 109.32507909026705
-  ZOOM 20.98991020722541 2324 0
-  VZOOMEX 5 0
+  CURSOR 5.13815300064272
+  ZOOM 12.14693877732952 0 0
+  VZOOMEX 5 194
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -49,7 +49,7 @@
     ZXZhdxgAAA==
   >
   LOCK 1
-  <METRONOME 6 2
+  <METRONOME 7 2
     VOL 1 1
     FREQ 800 1600 1
     BEATLEN 4
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 26.32301183290977 29.85257605488614
-  SELECTION2 26.32301183290977 29.85257605488614
+  SELECTION 5.13815300064272 31.84576774139843
+  SELECTION2 5.13815300064272 31.84576774139843
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 56 0
   MASTERPEAKCOL 16576
@@ -196,7 +196,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 -0.84 -1 -1 1
+    VOLPAN 0.24448276984837 -0.84 -1 -1 1
     MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1203,7 +1203,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 1 5088 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 64 0 0 0 0 0
@@ -5028,7 +5028,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {00BBECB4-E0CD-4415-97A0-DD14FF1B97EC}
       IID 174
       NAME "MT-PowerDrumKit untitled MIDI item-glued"
@@ -5639,7 +5639,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.29516224459529 1 -1 -1 1
+    VOLPAN 1.59595012814443 1 -1 -1 1
     MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -5690,7 +5690,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 1 1 0 0 0
+    BUSCOMP 1 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
@@ -5732,16 +5732,16 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 0 2 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 25 1 0 0 0 0
+    TRACKHEIGHT 59 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -6078,7 +6078,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {DE7F6FFB-3C69-43B1-ADC2-BE5D7EF909A7}
       IID 71
       NAME "MIDI-CLICK untitled MIDI item"
@@ -6091,14 +6091,14 @@
         HASDATA 1 960 QN
         CCINTERP 32
         POOLEDEVTS {7CF6BCBB-B6E0-446A-BEE9-141D5682E5BD}
-        e 0 90 30 7f
-        e 120 80 30 00
-        e 840 90 30 7f
-        e 120 80 30 00
-        e 840 90 30 7f
-        e 120 80 30 00
-        e 840 90 30 7f
-        e 120 80 30 00
+        E 0 90 30 7f
+        E 120 80 30 00
+        E 840 90 30 7f
+        E 120 80 30 00
+        E 840 90 30 7f
+        E 120 80 30 00
+        E 840 90 30 7f
+        E 120 80 30 00
         E 840 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
@@ -6106,7 +6106,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 6
         VELLANE -1 100 0
-        CFGEDITVIEW 2609.164327 0.27786 77 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 40424.303299 0.127197 77 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -6129,7 +6129,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 25 1 0 0 0 0
+    TRACKHEIGHT 78 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -6480,397 +6480,399 @@
         CCINTERP 32
         POOLEDEVTS {871E534C-6610-4645-982E-EE537B30437A}
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 1 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 1 80 2f 00
-        e 0 80 2e 00
-        E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 80 2e 00
+        E 36 90 2f 60
+        E 0 90 2e 60
+        e 0 90 30 60
         E 1 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
+        e 0 80 30 00
         E 35 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 2 80 2f 00
-        e 0 80 2e 00
-        E 63 90 2f 7f
-        e 0 90 2e 7f
+        E 0 80 2e 00
+        E 63 90 2f 60
+        E 0 90 2e 7f
         E 1 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 63 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 55 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 55 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 27 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 28 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 28 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 55 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 27 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 28 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 64 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 0 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 65 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 36 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 37 90 2f 7f
-        e 0 90 2e 7f
+        E 0 90 2e 7f
         E 198 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 80 2f 00
-        e 0 80 2e 00
+        E 0 80 2e 00
         E 0 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
@@ -6878,11 +6880,11 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 72
         VELLANE -1 77 0
-        CFGEDITVIEW 0 0.420734 78 16 0 -1 0 0 0 0.5
+        CFGEDITVIEW 385.67263 20.929006 78 16 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 9 1 1 1 1 1 4 22 102 1270 1005 1 0 0 2 0 0 0 1 3 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 9 1 1 1 1 1 0.5 22 102 1270 1005 1 0 0 2 0 0 0 1 0 0.5 0 0 1 64
       >
     >
   >
